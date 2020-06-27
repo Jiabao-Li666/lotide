@@ -35,3 +35,5 @@ const map = function(array, callback) {
 
 // test
 assertArraysEqual(map(words, word => word.length), [6, 7, 2, 5, 3]);
+
+module.exports = map;

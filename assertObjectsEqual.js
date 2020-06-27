@@ -42,3 +42,5 @@ assertObjectsEqual(o1, o2);
 assertObjectsEqual(o1, o3);
 assertObjectsEqual(o1, o4);
 assertObjectsEqual(o2, o4);
+
+module.exports = assertObjectsEqual;
